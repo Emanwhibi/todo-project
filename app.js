@@ -1,4 +1,3 @@
-console.log("Hello, world!");
 var name = prompt("Enter Your Name:");
 
 var gender = prompt("Enter Your Gender:");
@@ -22,38 +21,29 @@ if (!skipMessage) {
   }
   alert("Welcome, " + title + " " + name + "!");
 }
+var mansaf = prompt("do you like Mansaf? (yes/no)");
 
-// phase 2
+var userStudy = prompt("do you study Javascript ? (yes/no)");
 
-// def ask_question(question):
-//     while True:
-//         answer = input(question + " (Yes/No): ")
-//         if answer.lower() == "yes":
-//             return True
-//         elif answer.lower() == "no":
-//             return False
-//         else:
-//             print("Invalid input. Please enter 'Yes' or 'No'.")
+var userAge = prompt("are you above 25 years old? (yes/no)?");
+
+var userAnswers =[age,gender,name,mansaf , userStudy, userAge]
+
+ // function askingTheUserSomeQuestion(){
+  
 
 
-// def ask_multiple_questions(num_questions):
-//     answers = []
-//     for i in range(num_questions):
-//         question = input("Are you hungry?" + str(i + 1) + ": ")
-//         if question.strip() == "":
-//             print("Invalid question. Skipping to the next one.")
-//             continue
-//         answer = ask_question(question)
-//         answers.append(answer)
-//     return answers
+function travaresUserAnswer(){
+  for (let i = 0; i < userAnswers.length; i++) {
+ 
+    console.log(userAnswers[i]);
+  }
+}
+travaresUserAnswer()
 
 
-// def print_answers(answers):
-//     print("\nAnswers:")
-//     for i, answer in enumerate(answers):
-//         print("Question", i + 1, ":", "Yes" if answer else "No")
-//         for i, answer in enumerate(answers):
-//     print("Question #" + str(i+1) + " - Answer:", answer)
+
+
 
 
 
