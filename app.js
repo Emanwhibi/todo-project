@@ -29,7 +29,9 @@ var userAge = prompt("are you above 25 years old? (yes/no)?");
 
 var userAnswers =[age,gender,name,mansaf , userStudy, userAge]
 
- // function askingTheUserSomeQuestion(){
+  function askingTheUserSomeQuestion(){
+    var userResponses = askingTheUserSomeQuestion();
+  }
   
 
 
