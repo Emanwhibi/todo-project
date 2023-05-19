@@ -31,10 +31,8 @@ var userAnswers =[age,gender,name,mansaf , userStudy, userAge]
 
   function askingTheUserSomeQuestion(){
     var userResponses = askingTheUserSomeQuestion();
+    answers = [age,gender,name,mansaf , userStudy, userAge];
   }
-  
-
-
 function travaresUserAnswer(){
   for (let i = 0; i < userAnswers.length; i++) {
  
